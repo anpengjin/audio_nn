@@ -1,0 +1,12 @@
+﻿  net.c
+D:\learning\audio_nn\src\net.c(67,31): warning C4305: “=”: 从“double”到“float”截断
+D:\learning\audio_nn\src\net.c(57,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  audio_main.c
+D:\learning\audio_nn\audio_nn\audio_main.c(66,15): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\learning\audio_nn\audio_nn\audio_main.c(69,15): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\learning\audio_nn\audio_nn\audio_main.c(113,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\learning\audio_nn\audio_nn\audio_main.c(216,30): warning C4305: “=”: 从“double”到“float”截断
+D:\learning\audio_nn\audio_nn\audio_main.c(191,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\learning\audio_nn\audio_nn\audio_main.c(245,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  audio_nn.vcxproj -> D:\learning\audio_nn\audio_nn\x64\Debug\audio_nn.exe

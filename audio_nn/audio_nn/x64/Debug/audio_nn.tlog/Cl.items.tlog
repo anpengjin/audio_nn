@@ -1,0 +1,9 @@
+D:\learning\audio_nn\src\debug\debug.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\debug.obj
+D:\learning\audio_nn\src\layer\abs.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\abs.obj
+D:\learning\audio_nn\src\layer\batchnorm.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\batchnorm.obj
+D:\learning\audio_nn\src\layer\conv.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\conv.obj
+D:\learning\audio_nn\src\layer\leakyrelu.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\leakyrelu.obj
+D:\learning\audio_nn\src\layer\linear.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\linear.obj
+D:\learning\audio_nn\src\layer\tensor.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\tensor.obj
+D:\learning\audio_nn\src\net.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\net.obj
+D:\learning\audio_nn\audio_nn\audio_main.c;D:\learning\audio_nn\audio_nn\audio_nn\x64\Debug\audio_main.obj
