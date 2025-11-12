@@ -134,8 +134,8 @@
     <ClCompile Include="..\src\layer\conv.c" />
     <ClCompile Include="..\src\layer\leakyrelu.c" />
     <ClCompile Include="..\src\layer\linear.c" />
+    <ClCompile Include="..\src\layer\net.c" />
     <ClCompile Include="..\src\layer\tensor.c" />
-    <ClCompile Include="..\src\net.c" />
     <ClCompile Include="audio_main.c" />
   </ItemGroup>
   <ItemGroup>
@@ -145,8 +145,8 @@
     <ClInclude Include="..\src\layer\conv.h" />
     <ClInclude Include="..\src\layer\leakyrelu.h" />
     <ClInclude Include="..\src\layer\linear.h" />
+    <ClInclude Include="..\src\layer\net.h" />
     <ClInclude Include="..\src\layer\tensor.h" />
-    <ClInclude Include="..\src\net.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

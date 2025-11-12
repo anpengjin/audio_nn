@@ -296,8 +296,8 @@ void test_gruc()
 int main()
 {
 	// test_abs();
-	// test_linear();
+	test_linear();
 	// test_debug();
-	test_gruc();
+	// test_gruc();
 	return 0;
 }

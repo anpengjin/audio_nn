@@ -2,7 +2,16 @@
 #include "tensor.h"
 #include "conv.h"
 
-
+/********************************************************
+* Function name : conv2d_forward
+* Description   : 卷积层前向推理：y=nn.Conv2d(x)
+* Parameter     :
+* @input(FloatTensor*)  输入结构体指针
+* @layer(FloatConv2d)   卷积层结构体指针
+* @output(FloatTensor*) 输出结构体指针
+* @scratchbuf(float*)   scratchbuf指针
+* Return        :       无
+**********************************************************/
 void conv2d_forward(struct FloatTensor* input, struct FloatConv2d* layer, struct FloatTensor* output, float* scratchbuf)
 {
     int kernel_h = layer->kernel_h;

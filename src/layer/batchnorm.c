@@ -2,6 +2,16 @@
 #include "tensor.h"
 #include "batchnorm.h"
 
+/********************************************************
+* Function name : batchnorm2d_forward
+* Description   : BN层前向推理：y=nn.BatchNorm2d(x)
+* Parameter     :
+* @input(FloatTensor*)       输入结构体指针
+* @layer(FloatBatchNorm2d)   BN层结构体指针
+* @output(FloatTensor*)      输出结构体指针
+* @scratchbuf(float*)        scratchbuf指针
+* Return        :       无
+**********************************************************/
 void batchnorm2d_forward(struct FloatTensor* input, struct FloatBatchNorm2d* layer, struct FloatTensor* output, float* scratchbuf)
 {
     int channels = input->c;

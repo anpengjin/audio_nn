@@ -13,60 +13,75 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\ainr">
+      <UniqueIdentifier>{b52b0999-b455-4f68-bf77-be6d27d0997f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\debug">
+      <UniqueIdentifier>{ec0bf8a6-89ce-4458-8372-f00bcd767a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ainr">
+      <UniqueIdentifier>{356221fa-959b-469b-be04-bd0beda95e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\debug">
+      <UniqueIdentifier>{597a03af-517e-4316-9ee3-824090e108d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{b6ecf8bf-a096-4035-a07f-976fe3b517ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="audio_main.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\layer\abs.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\layer\linear.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\debug\debug.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\layer\conv.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\layer\tensor.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\ainr</Filter>
     </ClCompile>
     <ClCompile Include="..\src\layer\batchnorm.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\ainr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\layer\conv.c">
+      <Filter>源文件\ainr</Filter>
     </ClCompile>
     <ClCompile Include="..\src\layer\leakyrelu.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\ainr</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\net.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="..\src\layer\linear.c">
+      <Filter>源文件\ainr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\layer\tensor.c">
+      <Filter>源文件\ainr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\debug\debug.c">
+      <Filter>源文件\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_main.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\layer\net.c">
+      <Filter>源文件\ainr</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\layer\abs.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\layer\linear.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\debug\debug.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\layer\conv.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\layer\tensor.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\ainr</Filter>
     </ClInclude>
     <ClInclude Include="..\src\layer\batchnorm.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\ainr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\layer\conv.h">
+      <Filter>头文件\ainr</Filter>
     </ClInclude>
     <ClInclude Include="..\src\layer\leakyrelu.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\ainr</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\net.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="..\src\layer\linear.h">
+      <Filter>头文件\ainr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\layer\tensor.h">
+      <Filter>头文件\ainr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\debug\debug.h">
+      <Filter>头文件\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\layer\net.h">
+      <Filter>头文件\ainr</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
